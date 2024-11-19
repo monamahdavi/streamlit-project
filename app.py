@@ -10,8 +10,8 @@ st.title('World Happiness Dashboard')
 st.write('Explore Insights from the World Happiness Report Dataset with Interactive Charts.')
 
 # Load the data
-df = pd.read_csv('/Users/mona/Desktop/Northeastern/1st Semester/6600/Project/Project-02/2019.csv')
-
+#df = pd.read_csv('/Users/mona/Desktop/Northeastern/1st Semester/6600/Project/Project-02/2019.csv')
+df = pd.read_csv('2019.csv')
 # Sidebar filters
 st.sidebar.header('Interactive Elements')
 
